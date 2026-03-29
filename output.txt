@@ -1,0 +1,55 @@
+===== AERT TOOLKIT =====
+
+----- STACK ADT -----
+Top: 20
+Size: 2
+Pop: 20
+
+----- FACTORIAL -----
+Factorial(0) = 1
+Factorial(1) = 1
+Factorial(5) = 120
+Factorial(10) = 3628800
+
+----- FIBONACCI -----
+
+N = 5
+Naive: 5 | Calls: 15
+Memo : 5 | Calls: 9
+
+N = 10
+Naive: 55 | Calls: 177
+Memo : 55 | Calls: 19
+
+N = 20
+Naive: 6765 | Calls: 21891
+Memo : 6765 | Calls: 39
+
+N = 30
+Naive: 832040 | Calls: 2692537
+Memo : 832040 | Calls: 59
+
+----- TOWER OF HANOI (N=3) -----
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+Stored Moves in Stack:
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+----- BINARY SEARCH -----
+Search 7: 3
+Search 1: 0
+Search 13: 6
+Search 2: -1
+Empty array test: -1
